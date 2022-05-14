@@ -1,0 +1,25 @@
+{
+  "name": "static-livereloadert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/relativityboy/static-livereloader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/relativityboy/static-livereloader/issues"
+  },
+  "homepage": "https://github.com/relativityboy/static-livereloader#readme",
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "express": "^4.18.1",
+    "livereload": "^0.9.3"
+  }
+}
